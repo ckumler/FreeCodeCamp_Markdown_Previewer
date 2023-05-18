@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react-swc";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  build: "/FreeCodeCamp_Markdown_Previewer/",
+  base: "/FreeCodeCamp_Markdown_Previewer/",
 });
